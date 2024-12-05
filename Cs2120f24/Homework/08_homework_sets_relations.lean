@@ -66,6 +66,7 @@ good amount of the proof in English, and a little bit
 of it in Lean. You finish the missing formal parts.
 -/
 example {α β : Type} (f : α → β) : isTotalRel (funToRel f) :=
+
 /-
 by the definition of total, what is to be proved is that
 ∀ (x : α), ∃ (y : β), r x y. We first assume an arbitrary
